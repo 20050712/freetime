@@ -1,0 +1,10 @@
+{
+    "name": "freetime",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "freetime.xml",
+    "author": "20050712",
+    "minimum_firmware_version": 42
+}
