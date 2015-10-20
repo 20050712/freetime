@@ -16,25 +16,36 @@
           <block type="movement_forward" id="10"></block>
         </statement>
         <next>
-          <block type="controls_repeat" id="50" inline="true">
-            <value name="TIMES">
-              <block type="math_number" id="63">
-                <field name="NUM">2</field>
-              </block>
-            </value>
-            <statement name="DO">
-              <block type="movement_right" id="82"></block>
-            </statement>
+          <block type="movement_stop" id="139">
             <next>
-              <block type="controls_repeat" id="96" inline="true">
+              <block type="controls_repeat" id="50" inline="true">
                 <value name="TIMES">
-                  <block type="math_number" id="103">
-                    <field name="NUM">115000</field>
+                  <block type="math_number" id="63">
+                    <field name="NUM">2</field>
                   </block>
                 </value>
                 <statement name="DO">
-                  <block type="movement_forward" id="119"></block>
+                  <block type="movement_right" id="82"></block>
                 </statement>
+                <next>
+                  <block type="movement_stop" id="149">
+                    <next>
+                      <block type="controls_repeat" id="96" inline="true">
+                        <value name="TIMES">
+                          <block type="math_number" id="103">
+                            <field name="NUM">115000</field>
+                          </block>
+                        </value>
+                        <statement name="DO">
+                          <block type="movement_forward" id="119"></block>
+                        </statement>
+                        <next>
+                          <block type="movement_stop" id="168"></block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
