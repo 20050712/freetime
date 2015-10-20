@@ -1,39 +1,39 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="23" inline="true" x="57" y="62">
+  <block type="controls_repeat" id="1" inline="true" x="57" y="62">
     <value name="TIMES">
-      <block type="math_number" id="30">
+      <block type="math_number" id="2">
         <field name="NUM">115000</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="10"></block>
+      <block type="movement_forward" id="3"></block>
     </statement>
     <next>
-      <block type="movement_stop" id="139">
+      <block type="movement_stop" id="4">
         <next>
-          <block type="controls_repeat" id="50" inline="true">
+          <block type="controls_repeat" id="5" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="63">
-                <field name="NUM">2</field>
+              <block type="math_number" id="6">
+                <field name="NUM">25300</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_right" id="82"></block>
+              <block type="movement_right" id="7"></block>
             </statement>
             <next>
-              <block type="movement_stop" id="149">
+              <block type="movement_stop" id="8">
                 <next>
-                  <block type="controls_repeat" id="96" inline="true">
+                  <block type="controls_repeat" id="9" inline="true">
                     <value name="TIMES">
-                      <block type="math_number" id="103">
+                      <block type="math_number" id="10">
                         <field name="NUM">115000</field>
                       </block>
                     </value>
                     <statement name="DO">
-                      <block type="movement_forward" id="119"></block>
+                      <block type="movement_forward" id="11"></block>
                     </statement>
                     <next>
-                      <block type="movement_stop" id="168"></block>
+                      <block type="movement_stop" id="12"></block>
                     </next>
                   </block>
                 </next>
